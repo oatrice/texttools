@@ -1,0 +1,895 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- <declare-styleable name="TextViewCustom"> -->
+    <!-- <attr name="customFont" format="string" /> -->
+    <!-- </declare-styleable> -->
+
+
+    <!-- ______________________________ BLACK _________________________________________ -->
+
+    <style name="black12">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="black12bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="black14">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="black14bold">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="black16">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="black16bold">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="black18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="black18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="black22">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="black22bold">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="black24">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="black24bold">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="black28">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="black28bold">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <!-- ______________________________ BLUE _________________________________________ -->
+
+    <style name="blue12">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="blue12bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="blue14">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="blue14bold">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="blue16">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="blue16bold">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="blue18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="blue18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="blue20">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="blue20bold">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="dark_blue18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#00689f</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="dark_blue16">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#00689f</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="dark_blue14">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#00689f</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="dark_blue18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#00689f</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="blue22">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="blue22bold">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="blue24">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="blue24bold">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="blue28">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="blue28bold">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#49bfc6</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <!-- ______________________________ GRAY _________________________________________ -->
+
+    <style name="gray12bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray12">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="gray14">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="gray14bold">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray16">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="gray16bold">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="gray18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray20">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="gray20bold">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray22">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="gray22bold">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray24">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="gray24bold">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray28">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="gray28bold">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <!-- ______________________________ WHITE _________________________________________ -->
+
+    <style name="white12bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="white14">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="white14bold">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="white16">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="white16bold">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="white18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="white18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="white20">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="white20bold">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="white22">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="white22bold">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="white24">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="white24bold">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="white28">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="white28bold">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="white30bold">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <!-- ______________________________ RED _________________________________________ -->
+
+    <style name="red12bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#D70D0D</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="red14">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#D70D0D</item>
+    </style>
+
+    <style name="red14bold">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#D70D0D</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="red18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#D70D0D</item>
+    </style>
+
+    <style name="red18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#D70D0D</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="red20">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#D70D0D</item>
+    </style>
+
+    <style name="red20bold">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#D70D0D</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="red22">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#D70D0D</item>
+    </style>
+
+    <style name="red22bold">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#D70D0D</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="red24">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#D70D0D</item>
+    </style>
+
+    <style name="red24bold">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#D70D0D</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="red28">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#D70D0D</item>
+    </style>
+
+    <style name="red28bold">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#D70D0D</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <!-- ______________________________ DARKBLUE _________________________________________ -->
+
+    <style name="drakBlue18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#00689f</item>
+    </style>
+
+    <style name="drakBlue18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#00689f</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="drakBlue22bold">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#00689f</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <!-- ______________________________ gray_7d7d7d _________________________________________ -->
+
+    <style name="gray_7d7d7d_12bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_7d7d7d_14">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+    </style>
+
+    <style name="gray_7d7d7d_14bold">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_7d7d7d_16">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+    </style>
+
+    <style name="gray_7d7d7d_16bold">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_7d7d7d_18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+    </style>
+
+    <style name="gray_7d7d7d_18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_7d7d7d_20">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+    </style>
+
+    <style name="gray_7d7d7d_20bold">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_7d7d7d_22">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+    </style>
+
+    <style name="gray_7d7d7d_22bold">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_7d7d7d_24">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+    </style>
+
+    <style name="gray_7d7d7d_24bold">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_7d7d7d_28">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+    </style>
+
+    <style name="gray_7d7d7d_28bold">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_7d7d7d_32bold">
+        <item name="android:textSize">52sp</item>
+        <item name="android:textColor">#7d7d7d</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <!-- ______________________________ gray_9b9e93 _________________________________________ -->
+
+    <style name="gray_9b9e93_12bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#9b9e93</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_9b9e93_14">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#9b9e93</item>
+    </style>
+
+    <style name="gray_9b9e93_14bold">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#9b9e93</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_9b9e93_16">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#9b9e93</item>
+    </style>
+
+    <style name="gray_9b9e93_16bold">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#9b9e93</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_9b9e93_18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#9b9e93</item>
+    </style>
+
+    <style name="gray_9b9e93_18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#9b9e93</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_9b9e93_20">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#9b9e93</item>
+    </style>
+
+    <style name="gray_9b9e93_20bold">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#9b9e93</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_9b9e93_22">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#9b9e93</item>
+    </style>
+
+    <style name="gray_9b9e93_22bold">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#9b9e93</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_9b9e93_24">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#9b9e93</item>
+    </style>
+
+    <style name="gray_9b9e93_24bold">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#9b9e93</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="gray_9b9e93_28">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#9b9e93</item>
+    </style>
+
+    <style name="gray_9b9e93_28bold">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#9b9e93</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <!-- ______________________________ purple _________________________________________ -->
+
+    <style name="purple12">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#903f97</item>
+    </style>
+
+    <style name="purple12bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#903f97</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="purple14">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#903f97</item>
+    </style>
+
+    <style name="purple14bold">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#903f97</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="purple18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#903f97</item>
+    </style>
+
+    <style name="purple18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#903f97</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="purple22">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#903f97</item>
+    </style>
+
+    <style name="purple22bold">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#903f97</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="purple24">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#903f97</item>
+    </style>
+
+    <style name="purple24bold">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#903f97</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="purple28">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#903f97</item>
+    </style>
+
+    <style name="purple28bold">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#903f97</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <!-- ______________________________ lemon _________________________________________ -->
+
+    <style name="lemon12">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#d6dc29</item>
+    </style>
+
+    <style name="lemon12bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#d6dc29</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="lemon14">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#d6dc29</item>
+    </style>
+
+    <style name="lemon14bold">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#d6dc29</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="lemon18">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#d6dc29</item>
+    </style>
+
+    <style name="lemon18bold">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#d6dc29</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="lemon22">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#d6dc29</item>
+    </style>
+
+    <style name="lemon22bold">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">#d6dc29</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="lemon24">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#d6dc29</item>
+    </style>
+
+    <style name="lemon24bold">
+        <item name="android:textSize">44sp</item>
+        <item name="android:textColor">#d6dc29</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+    <style name="lemon28">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#d6dc29</item>
+    </style>
+
+    <style name="lemon28bold">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#d6dc29</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@style/FontBold</item>
+    </style>
+
+</resources>
